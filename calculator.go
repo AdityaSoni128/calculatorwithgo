@@ -1,6 +1,8 @@
 package Calculator
 
 import (
+	"fmt"
+
 	"github.com/AdityaSoni128/tablebuilderwithgo"
 )
 
@@ -21,5 +23,6 @@ func Divide(a, b int) int {
 }
 
 func Tablegetter(a int) {
+	fmt.Println("TAble getter called")
 	tablebuilderwithgo.GetTable(a)
 }
